@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+# https://github.com/opscode-cookbooks/apt
+cookbook 'apt'
+    
+# https://github.com/opscode-cookbooks/cron
+cookbook 'cron'
+
+# https://github.com/opscode-cookbooks/ntp
+cookbook 'ntp'
+
+# https://github.com/opscode-cookbooks/postfix  
+cookbook 'postfix'
+
+# https://github.com/opscode-cookbooks/sudo
+cookbook 'sudo'
+
+# https://github.com/xhost-cookbooks/system
+cookbook 'system'
+
+# https://github.com/webtrends/rundeck
+cookbook 'rundeck'
